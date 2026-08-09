@@ -18,7 +18,7 @@ jobs:
   publish:
     permissions:
       contents: write
-    uses: containifyci/.github/.github/workflows/artifacts.yml@v1.3.26
+    uses: containifyci/.github/.github/workflows/artifacts.yml@v1.3.27
     secrets: inherit
     with:
       tag_name: ${{ github.event.release.tag_name || inputs.tag_name }}
